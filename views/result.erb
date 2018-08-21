@@ -1,19 +1,23 @@
-<h2>The result is:  <%= @game_result %></h2>
-
-<!-- html comment -->
+<h1><%= @game_result %></h1>
 
 <p>
-  Play again!? Chose your weapon and play the computer!
+  Play again!? Chose your weapon!
 </p>
 
 <div class="container">
-  <div class="div-button">
-    <a class="div-link" href=/random/rock>Rock</a>
-  </div>
-  <div class="div-button">
-    <a class="div-link" href=/random/paper>Paper</a>
-  </div>
-  <div class="div-button">
-    <a class="div-link" href=/random/scissors>Scissors</a>
-  </div>
+  <a class="div-link" href="/random/rock">
+    <div class="div-button">
+      Rock
+    </div>
+  </a>
+  <a class="div-link" href="/random/paper">
+    <div class="div-button">
+      Paper
+    </div>
+  </a>
+  <a class="div-link" href="/random/scissors">
+    <div class="div-button">
+      Scissors
+    </div>
+  </a>
 </div>

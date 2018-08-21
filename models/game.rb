@@ -6,7 +6,7 @@ class Game
   end
 
   def compare
-    return "DRAW! #{@player1} matches #{@player2}!" if @player1 == @player2
+    return "DRAW! #{@player1.capitalize} matches #{@player2.capitalize}!" if @player1 == @player2
     return "PLAYER 1 wins! Rock blunts scissors!" if @player1 == "rock" && @player2 == "scissors"
     return "COMPUTER wins! Rock blunts scissors!" if @player1 == "scissors" && @player2 == "rock"
     return "PLAYER 1 wins! Scissors cuts paper!" if @player1 == "scissors" && @player2 == "paper"
