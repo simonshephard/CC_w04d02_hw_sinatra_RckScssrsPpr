@@ -1,9 +1,5 @@
 
 
-
-
-
-
 ORIGINAL SPEC
 
 Sinatra Homework - Rock Paper Scissors

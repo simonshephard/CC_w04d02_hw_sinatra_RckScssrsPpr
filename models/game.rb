@@ -15,5 +15,10 @@ class Game
     return "COMPUTER wins! Paper covers rock!" if @player1 == "rock" && @player2 == "paper"
   end
 
+  def self.random_weapon
+    weapons = ["rock", "paper", "scissors"]
+    weapons[rand(3)]
+  end
+
 
 end

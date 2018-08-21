@@ -1,6 +1,7 @@
 body {
   background-color: white;
   color: darkblue;
+  font-family: Helvetica, sans-serif;
 }
 .container {
   width: 500px;

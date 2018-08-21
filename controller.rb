@@ -8,13 +8,8 @@ get '/' do
   erb(:home)
 end
 
-get '/computer' do
-  erb(:computer)
-end
-
 get '/random/:player1' do
-  weapons = ["rock", "paper", "scissors"]
-  comp_weapon = weapons[rand(3)]
+  comp_weapon = Game.random_weapon
   game = Game.new(params[:player1], comp_weapon)
   @game_result = game.compare
   erb(:result)
